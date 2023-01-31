@@ -5,7 +5,10 @@
 
 # plot_change.py: Generate significance and positive and negative mean differences of electrode weight changes at neuroanatomical sites
 
-# OUTPUT: em_LL.xlsx, all_plot_change.xlsx, pos_plot_change.xlsx, neg_plot_change.xlsx
+# OUTPUT:
+#       Neurosemiology.xlsx (pvals per ROI)
+#       pos_plot_change.xlsx (positive electrical activity compared to the mean)
+#       neg_plot_change.xlsx (negative ")
 
 import time
 import os
